@@ -2,7 +2,7 @@ def aux(string):
     letter_dict = {}
     for letter in string.lower():
         if letter in letter_dict:
-            # this increment does not add a key, but updates an existing one 
+            # this increment does not add a key, but updates an existing one
             letter_dict[letter] += 1
         else:
             letter_dict[letter] = 1
