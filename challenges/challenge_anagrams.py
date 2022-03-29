@@ -5,6 +5,7 @@ def aux(string):
             letter_dict[letter] += 1
         else:
             letter_dict[letter] = 1
+        # print(letter_dict)
     return letter_dict
 
 
